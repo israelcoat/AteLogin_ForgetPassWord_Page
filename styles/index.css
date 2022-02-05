@@ -24,4 +24,28 @@
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
+section {
+  padding: 2vh 16vw;
+}
+
+section div {
+  text-align: center;
+}
+
+section div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+section div h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: rgba(28, 198, 45, 0.8);
+}
 /*# sourceMappingURL=index.css.map */
