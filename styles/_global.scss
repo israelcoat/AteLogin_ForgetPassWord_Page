@@ -1,3 +1,4 @@
+@import "variables";
 *,
 *::before,
 *::after {
@@ -15,8 +16,24 @@
   text-size-adjust: 100%;
 }
 
-:root {
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
+body {
   font-family: "Roboto", sans-serif;
+}
+form{
+    line-height: 25px;
+    .stem, .Cohort, .QHSE, .full{
+        margin-right: 16px;
+    }
+    #mail, #Amount{
+        width: 45%;
+        padding: 3vh 0.5vw;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+}
+button{
+    padding: $bottonPadding;
+    background-color: $bottonBg;
+    color: white;
+    border-radius: 7px;
 }

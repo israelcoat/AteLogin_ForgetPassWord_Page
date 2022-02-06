@@ -19,14 +19,36 @@
           text-size-adjust: 100%;
 }
 
-:root {
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
+body {
   font-family: "Roboto", sans-serif;
 }
 
+form {
+  line-height: 25px;
+}
+
+form .stem, form .Cohort, form .QHSE, form .full {
+  margin-right: 16px;
+}
+
+form #mail, form #Amount {
+  width: 45%;
+  padding: 3vh 0.5vw;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+button {
+  padding: 4vh 12vw;
+  background-color: #56DF74;
+  color: white;
+  border-radius: 7px;
+}
+
 section {
-  padding: 2vh 16vw;
+  padding: 4vh 16vw;
+  border: 1px solid #ffff;
+  border-radius: 8px;
 }
 
 section div {
@@ -47,5 +69,9 @@ section div h1 {
   font-size: 32px;
   line-height: 37px;
   color: rgba(28, 198, 45, 0.8);
+}
+
+section .secParagraph {
+  margin-top: 66px;
 }
 /*# sourceMappingURL=index.css.map */

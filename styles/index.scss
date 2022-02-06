@@ -3,6 +3,8 @@
 
 section {
     padding: $padding;
+    border: 1px solid #ffff;
+    border-radius: 8px;
   div {
     text-align: center;
     p {
@@ -20,5 +22,7 @@ section {
       color: $green;
     }
   }
-  
+  .secParagraph{
+      margin-top: 66px;
+  }
 }
