@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Forget Password Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="/styles/index.css">
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <div>
+          <p>You are welcome to ATC</p>
+          <h1>Payment Portal</h1>
+        </div>
+        <img src="/img/times.svg" alt="cancel" />
+      </div>
+      <p class="secParagraph">I'm Paying for:</p>
+      <form action="">
+        <input type="radio" name="payment" id="stem" />
+        <label for="stem">Stem</label>
+        <input type="radio" name="payment" id="cohort" />
+        <label for="cohort">Cohort</label>
+        <input type="radio" name="payment" id="qhse" />
+        <label for="qhse">QHSE</label>
+        <input type="radio" name="payment" id="consultation" />
+        <label for="consultation">Consultation</label><br>
+        <br>
+        <label for="">Verify Your Mail</label><br />
+        <input type="email" name="mail" id="mail" placeholder="enter your email" size="25"/><br>
+        <br>
+        <label for="">Types Of Payment</label><br />
+        <input type="radio" name="payType" id="full" />
+        <label for="full" onclick="fullPayment()">Full Payment</label>
+        <input type="radio" name="payType" id="part" />
+        <label for="part" onclick="partPayment()">Part Payment</label><br>
+        <br>
+        <label for="Amount" id="amountToBePaid">Enter Amount</label><br>
+        <input type="number" name="amount" id="Amount">
+      </form>
+      <p id="fullAmount">You are about to pay the sum of <b>#70,000.00</b> for Front -End Web Developemnt Course I</p>
+      <p id="partAmount">You are about to pay the sum of <b>#50,000.00</b> for Front -End Web Developemnt Course I as part payment.</p>
+      <button>Proceed to Payment</button>
+    </section>
+  </body>
+</html>

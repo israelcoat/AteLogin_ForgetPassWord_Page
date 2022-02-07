@@ -17,23 +17,28 @@
 }
 
 body {
+  background-color: #E5E5E5;
   font-family: "Roboto", sans-serif;
 }
-form{
-    line-height: 25px;
-    .stem, .Cohort, .QHSE, .full{
-        margin-right: 16px;
-    }
-    #mail, #Amount{
-        width: 45%;
-        padding: 3vh 0.5vw;
-        border: 1px solid black;
-        border-radius: 8px;
-    }
+form {
+  line-height: 25px;
+  label {
+    margin-right: 45px;
+  }
+  #mail,
+  #Amount {
+    width: 88%;
+    padding: 3vh 0.5vw;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
 }
-button{
-    padding: $bottonPadding;
-    background-color: $bottonBg;
-    color: white;
-    border-radius: 7px;
+button {
+  padding: $bottonPadding;
+  background-color: $bottonBg;
+  color: white;
+  border-radius: 7px;
+}
+#fullAmount, #partAmount, #amountToBePaid, #Amount{
+  display: none;
 }

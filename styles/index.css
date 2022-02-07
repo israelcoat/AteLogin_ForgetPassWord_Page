@@ -20,6 +20,7 @@
 }
 
 body {
+  background-color: #E5E5E5;
   font-family: "Roboto", sans-serif;
 }
 
@@ -27,12 +28,13 @@ form {
   line-height: 25px;
 }
 
-form .stem, form .Cohort, form .QHSE, form .full {
-  margin-right: 16px;
+form label {
+  margin-right: 45px;
 }
 
-form #mail, form #Amount {
-  width: 45%;
+form #mail,
+form #Amount {
+  width: 88%;
   padding: 3vh 0.5vw;
   border: 1px solid black;
   border-radius: 8px;
@@ -45,33 +47,53 @@ button {
   border-radius: 7px;
 }
 
+#fullAmount, #partAmount, #amountToBePaid, #Amount {
+  display: none;
+}
+
 section {
-  padding: 4vh 16vw;
+  background-color: #ffff;
+  margin: 10vh 25vw;
+  padding: 4vh 7vw;
   border: 1px solid #ffff;
   border-radius: 8px;
+  line-height: 35px;
 }
 
-section div {
+section .secParagraph {
+  margin-top: 66px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header div {
   text-align: center;
+  margin-left: 25%;
 }
 
-section div p {
+.header p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 23px;
 }
 
-section div h1 {
+.header h1 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 37px;
   color: rgba(28, 198, 45, 0.8);
-}
-
-section .secParagraph {
-  margin-top: 66px;
 }
 /*# sourceMappingURL=index.css.map */
